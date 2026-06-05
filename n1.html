@@ -1,0 +1,192 @@
+<html>
+    <hedd>
+        <title>
+            Práctica 2
+        </title>
+    </hedd>
+    <body>
+        <input type="text"/><br>
+        <input type="password"/>
+        
+        <hr>
+        <input type="checkbox"/> Leche<br>
+        <input type="checkbox"/> Agua<br>
+        <input type="checkbox"/> Pan<br>
+        
+        <hr>
+        <input type="radio" name="sexo"/>Mujer<br/>
+        <input type="radio" name="sexo"/>Hombre<br/>
+        <input type="radio" name="sexo"/>No binario 
+        
+        <hr>
+        <input type="radio" name="sexo1"/>Mujer<br/>
+        <input type="radio" name="sexo2"/>Hombre<br/>
+        <input type="radio" name="sexo3"/>No binario 
+        
+        
+        
+        
+        <hr>
+        <input type="submit" value="enviar"/>
+        <input type="submit" value="Siguiente paso"/>
+        
+        <hr>
+        <input type="reset" value="Resetear formulario"/>
+        <input type="reset" value="Limpiar campos "/>                        
+                                
+        <hr>
+        <input type="text" size="5"/><br>
+        <input type="text" size="15"/><br>
+        <input type="text" size="25"/><br>
+        
+        <hr>
+        <input type="text" size="5" value="12345"/><br>
+        <input type="text" size="15" value="Campos de texto"/><br>
+        <input type="text" size="25" value="Ejemplo de campos de texto"/><br>
+        
+        <hr>
+        <input type="password" size="10" maxlength="5"/>
+        
+        <hr>
+        <p>Elige tus colores favoritos</p>
+        <p>Azul:<input type="checkbox" name="colors" value="blue"/><br>
+        Amarillo:<input type="checkbox" name="colors" value="yellow"/><br>
+        Rojo:<input type="checkbox" name="colors" value="red"/><br>
+        Verde:<input type="checkbox" name="colors" value="green"/><br>                
+        </p>
+        
+        <hr>
+        <p>Elige tus colores favoritos</p>
+        <p>Azul:<input type="checkbox" name="colors" value="blue" checked="yes"/><br>
+        Amarillo:<input type="checkbox" name="colors" value="yellow"/><br>
+        Rojo:<input type="checkbox" name="colors" value="red"checked="yes"/><br>
+        Verde:<input type="checkbox" name="colors" value="green"/><br>                
+        </p>
+        
+        <hr>
+        <p>Elegir nacionalidad</p>
+        <p>Española:<input type="radio" name="citisenship"/><br>
+        Mexicana:<input type="radio" name="citisenship"/><br>
+        Inglesa:<input type="radio" name="citisenship"/><br>
+        </p>
+        
+        <hr>
+        <p>Elegir nacionalidad</p>
+        <p>Española:<input type="radio" name="citisenship"/><br>
+        Mexicana:<input type="radio" name="citisenship"/><br>
+        Inglesa:<input type="radio" name="citisenship"/><br>
+        </p>
+        
+        <p>Escoger género</p>
+        <p>
+            Femenino:<input type="radio" name="sexo"/>Mujer<br/>
+            Masculino:<input type="radio" name="sexo"/>Hombre<br/>
+        </p>
+        
+        <hr>
+        <textarea> Área de texto!</textarea>
+        
+        <hr>
+        <textarea cols="50" rows="2"> Área de texto!</textarea>
+        <textarea cols="40" rows="5"> Área de texto!</textarea>
+        <textarea cols="20" rows="10"> Área de texto!</textarea>
+        
+        
+        <hr>
+        <textarea cols="20" rows="5" wrap="hard">Hard-ubica un enter al final de cada linea y envía el texto en el mismo formato en el que se fue introducido.</textarea>
+        
+        
+        <hr>
+        <textarea cols="20" rows="5" wrap="off"> Off-este no formatea el texto de ninguna manera, deja el texto en una única línea continua.</textarea></textarea>
+        
+        <hr>
+        <textarea cols"20" rows"5" wrap="hard" readonly"yes">Como puedes ver este texto no se puede ser modificado. En caso de que el valor 'no' sea elegido, se obtendrá el resultado opuesto</textarea>
+        
+        <hr>
+        <textarea cols="20" rows"5" wrap="hard" disabled="yes">El atributo disabled no es muy diferente del readonly. El texto de mostrara en gris, desactivando al mismo tiempo la posibilidad de modificar el texto contenido en el área de texto</textarea>
+        
+        <hr>
+        <input type="file"/>
+        
+        
+        
+        <hr>
+        <input type="Hidden" name="MAX_FILE_SIZE" value="4194303"/>
+        <input type="file"/>
+        
+        <hr>
+        <select>
+            <option>Tuxpan</option>
+            <option>Alamo</option>
+            <option>Papantla</option>
+        </select>
+        
+        
+        <hr>
+        <select>
+            <option>Tuxpan</option>
+            <option selected="yes">Alamo</option>
+            <option>Papantla</option>
+        </select>
+        
+        
+        <hr>
+        <select name="my_html_select_box" size="3">
+             <option>Tuxpan</option>
+            <option>Alamo</option>
+            <option>Papantla</option>
+        </select>
+        
+        
+     
+        <hr>
+        <select name="my_html_select_box" multiple="yes" size="3">
+             <option>Tuxpan</option>
+            <option>Alamo</option>
+            <option>Papantla</option>
+        </select>
+        
+        
+        <hr>
+        <input type="submit" value="submit"/><br>
+        <input type="submit" value="Enviar"/><br>
+        <input type="submit" value="Continuar"/><br>
+        
+        
+        
+        <hr>
+        <from method="post"acción="mailto:kperez2723@ver.conalep.edu.mx">
+            Nombre:<input type="text" name="Name"size="15" maxlength="15"/>
+            Apellido:<input type="text" name"Last_name" size="25"maxlength="25"/>
+            <input type="submit" value="Enviar por correo"/>
+        </from>
+        
+        
+        <hr>
+        <input type="reset" value="reset"/><br>
+        <input type="reset" value="Borrar"/><br>
+        <input type="reset" value="Limpiar formilario"/><br>
+        
+        
+        <hr>
+        <form action="myphp.php" method="post">
+            <input type="text" size="15" maxlength="15"/><br>
+            <input type="text" size="25" maxlength="25"/><br>
+            <input type="reset" value="Borrar todo"/>
+        </form>
+        
+        <hr>
+        <audio controls>
+            <source src="elemao.mp3" type="audio/mpeg">
+                <source src="C:\Users\yarel\Music\WhatsApp Ptt 2026-05-04 at 1.59.11 PM.ogg" type="audio/ogg">            
+        </audio>
+        
+        
+        <hr>
+        <video width="320"height="240" controls>
+            <source src="cousins.mp4" type="video/mp4">
+                <source src="C:\Users\yarel\Videos\WhatsApp Video 2026-05-04 at 1.52.38 PM.mp4" type="video/ogg">
+        </video>
+        
+    </body>
+</html>

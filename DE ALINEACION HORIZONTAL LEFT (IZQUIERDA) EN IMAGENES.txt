@@ -1,0 +1,14 @@
+<html>
+<body>
+
+<h1>DE ALINEACION HORIZONTAL LEFT (IZQUIERDA) EN IMAGENES</h1>
+
+<img src="izquierda.jpeg" width="500" height="auto" 
+
+
+<p>
+....
+</p>
+
+</body>
+</html>
